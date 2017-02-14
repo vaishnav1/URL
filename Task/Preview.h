@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Preview.h
 //  Task
 //
 //  Created by vaishnav on 09/01/17.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+@interface Preview : UIViewController
 
+- (IBAction)preview:(id)sender;
 @end
-

@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		FEA26B461E23C56F00D519D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA26B451E23C56F00D519D3 /* main.m */; };
 		FEA26B491E23C56F00D519D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA26B481E23C56F00D519D3 /* AppDelegate.m */; };
-		FEA26B4C1E23C56F00D519D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA26B4B1E23C56F00D519D3 /* ViewController.m */; };
 		FEA26B4F1E23C56F00D519D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA26B4D1E23C56F00D519D3 /* Main.storyboard */; };
 		FEA26B521E23C56F00D519D3 /* Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEA26B501E23C56F00D519D3 /* Task.xcdatamodeld */; };
 		FEA26B541E23C56F00D519D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA26B531E23C56F00D519D3 /* Assets.xcassets */; };
 		FEA26B571E23C56F00D519D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA26B551E23C56F00D519D3 /* LaunchScreen.storyboard */; };
 		FEA26B621E23C57000D519D3 /* TaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA26B611E23C57000D519D3 /* TaskTests.m */; };
 		FEA26B6D1E23C57000D519D3 /* TaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA26B6C1E23C57000D519D3 /* TaskUITests.m */; };
+		FEA26B7B1E23C58A00D519D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA26B7A1E23C58A00D519D3 /* Foundation.framework */; };
+		FEA26B7D1E23C5B000D519D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA26B7C1E23C5B000D519D3 /* UIKit.framework */; };
+		FEA26B7F1E23C5B900D519D3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA26B7E1E23C5B900D519D3 /* CoreData.framework */; };
+		FEA26B851E23C6B800D519D3 /* Preview.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA26B841E23C6B800D519D3 /* Preview.m */; settings = {ASSET_TAGS = (); }; };
+		FEA26B8B1E23D01C00D519D3 /* registerpage.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA26B8A1E23D01C00D519D3 /* registerpage.m */; settings = {ASSET_TAGS = (); }; };
+		FEA26B8E1E23D04600D519D3 /* loginpage.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA26B8D1E23D04600D519D3 /* loginpage.m */; settings = {ASSET_TAGS = (); }; };
+		FEB1BDCA1E5337BC00D1D8BC /* Webview.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1BDC91E5337BC00D1D8BC /* Webview.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +46,6 @@
 		FEA26B451E23C56F00D519D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEA26B471E23C56F00D519D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FEA26B481E23C56F00D519D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FEA26B4A1E23C56F00D519D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FEA26B4B1E23C56F00D519D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FEA26B4E1E23C56F00D519D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEA26B511E23C56F00D519D3 /* Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task.xcdatamodel; sourceTree = "<group>"; };
 		FEA26B531E23C56F00D519D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +57,17 @@
 		FEA26B681E23C57000D519D3 /* TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA26B6C1E23C57000D519D3 /* TaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskUITests.m; sourceTree = "<group>"; };
 		FEA26B6E1E23C57000D519D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA26B7A1E23C58A00D519D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEA26B7C1E23C5B000D519D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEA26B7E1E23C5B900D519D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FEA26B831E23C6B800D519D3 /* Preview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preview.h; sourceTree = "<group>"; };
+		FEA26B841E23C6B800D519D3 /* Preview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preview.m; sourceTree = "<group>"; };
+		FEA26B891E23D01C00D519D3 /* registerpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerpage.h; sourceTree = "<group>"; };
+		FEA26B8A1E23D01C00D519D3 /* registerpage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerpage.m; sourceTree = "<group>"; };
+		FEA26B8C1E23D04600D519D3 /* loginpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginpage.h; sourceTree = "<group>"; };
+		FEA26B8D1E23D04600D519D3 /* loginpage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginpage.m; sourceTree = "<group>"; };
+		FEB1BDC81E5337BC00D1D8BC /* Webview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Webview.h; sourceTree = "<group>"; };
+		FEB1BDC91E5337BC00D1D8BC /* Webview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Webview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA26B7F1E23C5B900D519D3 /* CoreData.framework in Frameworks */,
+				FEA26B7D1E23C5B000D519D3 /* UIKit.framework in Frameworks */,
+				FEA26B7B1E23C58A00D519D3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,9 @@
 		FEA26B381E23C56E00D519D3 = {
 			isa = PBXGroup;
 			children = (
+				FEA26B7E1E23C5B900D519D3 /* CoreData.framework */,
+				FEA26B7C1E23C5B000D519D3 /* UIKit.framework */,
+				FEA26B7A1E23C58A00D519D3 /* Foundation.framework */,
 				FEA26B431E23C56F00D519D3 /* Task */,
 				FEA26B601E23C57000D519D3 /* TaskTests */,
 				FEA26B6B1E23C57000D519D3 /* TaskUITests */,
@@ -105,8 +126,14 @@
 			children = (
 				FEA26B471E23C56F00D519D3 /* AppDelegate.h */,
 				FEA26B481E23C56F00D519D3 /* AppDelegate.m */,
-				FEA26B4A1E23C56F00D519D3 /* ViewController.h */,
-				FEA26B4B1E23C56F00D519D3 /* ViewController.m */,
+				FEA26B8C1E23D04600D519D3 /* loginpage.h */,
+				FEA26B8D1E23D04600D519D3 /* loginpage.m */,
+				FEA26B891E23D01C00D519D3 /* registerpage.h */,
+				FEA26B8A1E23D01C00D519D3 /* registerpage.m */,
+				FEA26B831E23C6B800D519D3 /* Preview.h */,
+				FEA26B841E23C6B800D519D3 /* Preview.m */,
+				FEB1BDC81E5337BC00D1D8BC /* Webview.h */,
+				FEB1BDC91E5337BC00D1D8BC /* Webview.m */,
 				FEA26B4D1E23C56F00D519D3 /* Main.storyboard */,
 				FEA26B531E23C56F00D519D3 /* Assets.xcassets */,
 				FEA26B551E23C56F00D519D3 /* LaunchScreen.storyboard */,
@@ -273,8 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA26B851E23C6B800D519D3 /* Preview.m in Sources */,
 				FEA26B521E23C56F00D519D3 /* Task.xcdatamodeld in Sources */,
-				FEA26B4C1E23C56F00D519D3 /* ViewController.m in Sources */,
+				FEA26B8B1E23D01C00D519D3 /* registerpage.m in Sources */,
+				FEA26B8E1E23D04600D519D3 /* loginpage.m in Sources */,
+				FEB1BDCA1E5337BC00D1D8BC /* Webview.m in Sources */,
 				FEA26B491E23C56F00D519D3 /* AppDelegate.m in Sources */,
 				FEA26B461E23C56F00D519D3 /* main.m in Sources */,
 			);
@@ -502,6 +532,7 @@
 				FEA26B731E23C57000D519D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEA26B741E23C57000D519D3 /* Build configuration list for PBXNativeTarget "TaskTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +541,7 @@
 				FEA26B761E23C57000D519D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEA26B771E23C57000D519D3 /* Build configuration list for PBXNativeTarget "TaskUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +550,7 @@
 				FEA26B791E23C57000D519D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
